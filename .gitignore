@@ -1,0 +1,23 @@
+# 输出产物（可由脚本重新生成，不入库）
+out/*.csv
+out/*.json
+out/*.md
+
+# 样例数据可复现，但体积较大，按需生成
+data/*.json
+
+# 真实账套数据绝对不入库
+data/real/
+*.xlsx
+*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
